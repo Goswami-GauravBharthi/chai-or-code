@@ -7,6 +7,8 @@ dotenv.config({
   path: "./.env",
 });
 
+console.log("Learning Backend from chai or code")
+
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8000, () => {
